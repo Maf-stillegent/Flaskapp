@@ -44,6 +44,7 @@ docker run -d -p 5000:5000 --name flask_api flask-api:latest
 docker ps
 
 #check docker logs 
+
 docker logs 3ecb165ae13d
 
 
