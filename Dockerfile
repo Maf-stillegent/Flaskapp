@@ -1,7 +1,7 @@
 # base images
-FROM python:3.10
+FROM python:3.9
 # you can use alpine image for light weight.
-# FROM python:3.10-alpine
+FROM python:3.9-alpine
 # workdir is used to set the pwd inside docker container
 WORKDIR /code
 COPY requirements.txt /code/requirements.txt
