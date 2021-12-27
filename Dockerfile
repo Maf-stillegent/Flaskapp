@@ -4,7 +4,7 @@ FROM python:3.10
 # FROM python:3.10-alpine
 # workdir is used to set the pwd inside docker container
 WORKDIR /code
-COPY requirements.txt /requirements.txt
+COPY requirements.txt /code/requirements.txt
 # Install pip dependancy.
 RUN pip install -r /requirements.txt
 # copy whole directory inside /code working directory.
